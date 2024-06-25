@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package magazzino;
+
+service Magazzino{
+    rpc Preleva (StringMessage) returns (Prodotto){}
+    rpc Deposita(Prodotto) returns (StringMessage){}
+    rpc Svuota(StringMessage) returns(StringMessage){}
+}
+
+
+message StringMessage{
+    string message = 1;
+}
+
+message Prodotto{
+    string id = 1;
+    string tipoProdotto = 2;
+}

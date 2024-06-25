@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "Java/Esercizi/STOMP/ES1"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/tmp/jms1.0.2b/lib/jms.jar",
+        "/home/studente/apache-activemq-5.16.6/activemq-all-5.16.6.jar"
+    ]
+}
